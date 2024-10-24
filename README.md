@@ -21,3 +21,4 @@ Web aplikacija se nalazi na Git Hub-u na [adresi](https://github.com/SvetlanaPet
 ```
 
 Na frhu stranice će biti postavljena fotografija u container-fluid formatu preko koje će biti ispisano ime aplikacije i kratak opis.
+
