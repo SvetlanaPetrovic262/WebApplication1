@@ -3,7 +3,7 @@
 
 Aplikacija omogućava korisnicima da pristupaju već oformljenim čitalačkim klubovima kao i da samostalno kreiraju nove klubove.
 
-Login stranica  ✔️_cross_mark:
+Login stranica  ✔️
 
 Books stranica |&cross;|
 
