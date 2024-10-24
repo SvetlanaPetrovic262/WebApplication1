@@ -3,9 +3,9 @@
 
 Aplikacija omogućava korisnicima da pristupaju već oformljenim čitalačkim klubovima kao i da samostalno kreiraju nove klubove.
 
-Login stranica  _check_mark
+Login stranica  ✔️_cross_mark:
 
-Books stranica |&cross|
+Books stranica |&cross;|
 
 ### Datalji:
 
