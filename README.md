@@ -3,6 +3,9 @@
 
 ###Aplikacija omogućava korisnicima da pristupaju već oformljenim čitalačkim klubovima kao i da samostalno kreiraju nove klubove.
 
+Login stranica &cross
+Books stranica &cross
+
 ##Datalji:
 
 Aplikacija se sastoji od Login stranice gde novi članovi moraju prvo da se registruju koristeći svoju email adresu,da oforme username i password koji će koristiti pri pristupu aplikaciji.
