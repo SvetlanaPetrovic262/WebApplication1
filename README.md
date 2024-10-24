@@ -6,7 +6,7 @@ Aplikacija omogućava korisnicima da pristupaju već oformljenim čitalačkim kl
 Login stranica  ✔️
 
 Books stranica |&cross;|
-
+:x:
 ### Datalji:
 
 Aplikacija se sastoji od Login stranice gde se novi članovi prvo registruju koristeći svoju email adresu a zatim formiraju username i password koji će koristiti prilikom pristupanja aplikaciji.
