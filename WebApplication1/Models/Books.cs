@@ -3,11 +3,10 @@
     public class Books
 
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Author { get; set; }  
-        public int Published { get; set; }  
+        public string Genre { get; set; }   
         public int Members { get; set; }    
-        public decimal Rating { get; set; }
+        public double Rating { get; set; }
     }
 }

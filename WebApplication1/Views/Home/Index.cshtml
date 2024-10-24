@@ -5,28 +5,48 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Sve knjige</h1>
 
-    <table>
-        <thead>
-        <tr>
-            <th>Id</th>
-             <th>Name</th>
-             <th>Rating</th>
-        </tr>
-        </thead>
-        <tbody>
-           @foreach(var books in Model)
-           {
-            <tr>
-              <td>@books.Id</td>
-              <td>@books.Name</td>
-              <td>@books.Rating</td>
-            </tr>
-           }
+    <div class="container">
+        
+        <div class="row">
+            @foreach (var books in Model)
+            {
+            <div class="col-md-4">
+                <div class="card my-3">
+                <h5>@books.Name</h5>
+                <h6>@books.Author</h6>
+                <p>@books.Members</p>
+            </div>
+            }
+         </div>
 
-        </tbody>
-    </table>
+    <div>
+
+        <table>
+            <thead>
+                <tr>
+
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Rating</th>
+                    <th>Members</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var books in Model)
+                {
+                    <tr>
+                        <td>@books.Name</td>
+                        <td>@books.Author</td>
+                        <td>@books.Rating</td>
+                        <td>@books.Members</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
 
 </div>
 

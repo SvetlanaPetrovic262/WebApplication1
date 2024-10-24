@@ -19,21 +19,24 @@ namespace WebApplication1.Controllers
 
             books.Add(new Books
             {
-                Id = 1,
-                Name = "Dune",
+                Name = "Dina",
+                Author = "Frenk Herbert",
                 Rating = 5,
+                Members = 200,
             });
             books.Add(new Books
             {
-                Id = 2,
-                Name = "Hobbit",
-                Rating = 5,
+                Name = "Hobit",
+                Author = "Dž.R.R.Tolkin",
+                Rating = 4.8,
+                Members = 200,
             });
             books.Add(new Books
             {
-                Id = 3,
-                Name = "Lord of the rings",
+                Name = "Gospodar prstenova",
+                Author = "Dž.R.R.Tolkin",
                 Rating = 5,
+                Members = 200,
             });
 
             return View(books);
